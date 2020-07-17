@@ -29,7 +29,7 @@ export default class Header extends React.Component {
             <Link to="/join">JOIN</Link>
           </div>
           <div className="page-title">
-            <Link to="/donate">DONATE</Link>
+            <Link className="donate-button" to="/donate">DONATE</Link>
           </div>
         </div>
       </div>
