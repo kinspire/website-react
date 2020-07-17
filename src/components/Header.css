@@ -1,0 +1,19 @@
+.nav-menu {
+}
+
+.brand-container {
+    width: 15%;
+    display: inline-block;
+    text-align: left;
+}
+
+.nav-container {
+    text-align: right;
+    width: 80%;
+    display: inline-block;
+}
+
+.page-title {
+    display: inline-block;
+    padding: 50px;
+}
