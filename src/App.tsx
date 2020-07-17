@@ -30,9 +30,6 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/test">
-            Test! <Link to="/">Back home</Link>
-          </Route>
           <Route path="/donate">
             {" "}
             <Donate />{" "}

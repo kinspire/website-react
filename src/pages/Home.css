@@ -1,0 +1,80 @@
+.home-page {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.cover {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: right;
+    background-image: url("../images/cover-circle.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.heading-1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.mission {
+    margin-top: 200px;
+}
+
+.heading-parent {
+    position: relative;
+}
+
+.mission-img {
+    width: 500px;
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+}
+
+.mission-img-2 {
+    width: 500px;
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+
+.heading-2 {
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+}
+
+.home-page-text {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.home-container-1, .home-container-2 {
+    width: 500px;
+    padding: 200px 0px;
+    display: inline-block;
+}
+
+.home-container-1 {
+    text-align: left;
+}
+
+.home-container-2 {
+    text-align: right;
+    /* position: absolute; */
+    float: right;
+}
+
+.mission-link {
+    width: 200px;
+    margin: 20px 0;
+    padding: 15px;
+    background-image: url("../images/button-bg-wide-yellow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* text-align: center; */
+}
