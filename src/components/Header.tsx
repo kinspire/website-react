@@ -17,13 +17,13 @@ export default class Header extends React.Component {
             <Link to="/story">STORY</Link>
           </div>
           <div className="page-title">
+            <Link to="/impact">IMPACT</Link>
+          </div>
+          <div className="page-title">
             <Link to="/orphanages">ORPHANAGES</Link>
           </div>
           <div className="page-title">
             <Link to="/team">TEAM</Link>
-          </div>
-          <div className="page-title">
-            <Link to="/impact">IMPACT</Link>
           </div>
           <div className="page-title">
             <Link to="/join">JOIN</Link>
