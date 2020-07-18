@@ -1,6 +1,8 @@
 import React from "react";
-import "./Header.css";
 import { Link } from "react-router-dom";
+
+import KButton from "./Button";
+import "./Header.css";
 
 export default class Header extends React.Component {
   render() {
@@ -29,7 +31,13 @@ export default class Header extends React.Component {
             <Link to="/join">JOIN</Link>
           </div>
           <div className="page-title">
-            <Link className="donate-button" to="/donate">DONATE</Link>
+            <KButton
+              title="DONATE"
+              source="/donate"
+              bgColor="#E0F2F1"
+              width="125px"
+              height="40px"
+            />
           </div>
         </div>
       </div>

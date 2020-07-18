@@ -1,5 +1,6 @@
 import React from "react";
 
+import KButton from "../components/Button";
 import "./Home.css";
 
 // heading 1: 100px, tt case, black, color: grey
@@ -29,8 +30,24 @@ export default class Home extends React.Component {
               By connecting them to tutors and volunteers across the world. By
               connecting them to tutors and volunteers across the world.
             </div>
-            <div className="mission-link"> EVENTS </div>
-            <div className="mission-link"> WORKSHOPS </div>
+            <div className="mission-links">
+              <KButton
+                source="/"
+                title="EVENTS"
+                bgColor="#FEFA95"
+                width="125px"
+                height="40px"
+              />
+            </div>
+            <div className="missionLinks">
+              <KButton
+                source="/"
+                title="WORKSHOPS"
+                bgColor="#FEFA95"
+                width="135px"
+                height="40px"
+              />
+            </div>
           </div>
           <div className="home-container-2">
             <div className="heading-parent">
